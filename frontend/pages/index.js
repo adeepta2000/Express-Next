@@ -63,6 +63,12 @@ export default function Home() {
         <div className="flex justify-between mb-4">
           <h2 className="text-xl font-semibold">Product List</h2>
           <button
+            onClick={() => router.push('/order')}
+            className="bg-green-600 text-white px-4 py-2 rounded"
+          >
+            📦 Orders
+          </button>
+          <button
             onClick={() => router.push('/add-product')}
             className="bg-blue-600 text-white px-4 py-2 rounded"
           >
