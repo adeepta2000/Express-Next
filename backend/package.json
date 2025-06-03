@@ -10,11 +10,16 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@apollo/server": "^4.12.2",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
+    "dataloader": "^2.2.3",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "express-validator": "^7.2.1",
+    "graphql": "^16.11.0",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-tools": "^9.0.18",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.0"
   }

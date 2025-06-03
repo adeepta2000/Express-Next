@@ -13,7 +13,7 @@ const authenticateJWT = require('../middlewares/authMiddleware');
 
 
 // GET all products
-router.get('/', authenticateJWT, getAllProducts);
+router.get('/', getAllProducts);
 
 //Get product by ID
 router.get('/:id', authenticateJWT, getProductById);
